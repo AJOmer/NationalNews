@@ -20,7 +20,7 @@ final class APICaller {
     private init(){}
     
     // functions to call for performance on retrieving stories/data
-    public func getTopStories(completion: @escaping (Result<[String], Error>) -> Void){
+    public func getTopStories(completion: @escaping (Result<[Article], Error>) -> Void){
         // unwrap the url to tap into headlines properties
         guard let url = Constants.topHeadlinesURL else {
             return
@@ -35,7 +35,7 @@ final class APICaller {
                 do {
                     //Input the APIResponse carrying the article  as target source of information
                     let result = try JSONDecoder().decode(APIResponse.self, from: data)
-                    print("Articles: \(result.articles.count)")
+                    completion(.success(result.articles))
                 }
                 catch{
                     completion(.failure(error))

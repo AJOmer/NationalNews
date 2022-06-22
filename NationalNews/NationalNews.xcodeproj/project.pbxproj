@@ -17,6 +17,7 @@
 		889443082863B3810058736D /* NationalNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889443072863B3810058736D /* NationalNewsUITests.swift */; };
 		8894430A2863B3810058736D /* NationalNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889443092863B3810058736D /* NationalNewsUITestsLaunchTests.swift */; };
 		889443172863B9BB0058736D /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889443162863B9BB0058736D /* APICaller.swift */; };
+		889443192863D17F0058736D /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889443182863D17F0058736D /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		889443072863B3810058736D /* NationalNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalNewsUITests.swift; sourceTree = "<group>"; };
 		889443092863B3810058736D /* NationalNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		889443162863B9BB0058736D /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		889443182863D17F0058736D /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				889442F12863B3810058736D /* LaunchScreen.storyboard */,
 				889442F42863B3810058736D /* Info.plist */,
 				889443162863B9BB0058736D /* APICaller.swift */,
+				889443182863D17F0058736D /* NewsTableViewCell.swift */,
 			);
 			path = NationalNews;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				889442EB2863B3800058736D /* ViewController.swift in Sources */,
 				889442E72863B3800058736D /* AppDelegate.swift in Sources */,
+				889443192863D17F0058736D /* NewsTableViewCell.swift in Sources */,
 				889442E92863B3800058736D /* SceneDelegate.swift in Sources */,
 				889443172863B9BB0058736D /* APICaller.swift in Sources */,
 			);
